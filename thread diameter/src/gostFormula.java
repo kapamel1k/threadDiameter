@@ -7,7 +7,7 @@ public class gostFormula {
     public static void main(String[] args) {
         int P = 6; // Шаг резьбы
         int D = 32; // наружный диаметр резьбы
-
+// test
 //        double esC = (-(125+11*P) / 1000.0); // верхнее отклонение
 //        double esE = (-(50+11*P) / 1000.0); // верхнее отклонение
 //        double esG = (-(15+11*P) / 1000.0); // верхнее отклонение

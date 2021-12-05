@@ -84,7 +84,7 @@ public class tryClass {
         int command2 = scanner.nextInt();
         if (command2 == 1){
             new calculation(P,Diametr.sredii(D,P));
-            
+
 
         }
     }
