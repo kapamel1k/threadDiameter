@@ -36,44 +36,44 @@ public class tryClass {
         if (command == 1) {
             double Td = (Math.round((180 * Math.cbrt(Math.pow(P, 2)) - 45 / Math.sqrt(P)) / 1.6) /1000.0) * (-1); //наружный диаметр
             System.out.println("Допуск на наружный диамер резьбы Tr" + D + "x" + P + " " + D  + Td);
-            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.sredii(D,P)  + (esE / 1000.0) + "/" + Math.round(Td2)/1000.0*(-1));
-            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrennii(D,P) + Math.round(Td3_6e)/1000.0 * (-1));
+            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.srediiNar(D,P)  + (esE / 1000.0) + "/" + Math.round(Td2)/1000.0*(-1));
+            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrenniiNar(D,P) + Math.round(Td3_6e)/1000.0 * (-1));
 
         }else if (command == 2) {
             double Td = (Math.round((180 * Math.cbrt(Math.pow(P, 2)) - 45 / Math.sqrt(P)) / 1.6) /1000.0) * (-1); //наружный диаметр
             System.out.println("Допуск на наружный диамер резьбы Tr" + D + "x" + P + " " + D + Td);
-            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.sredii(D,P)  + (esG / 1000.0) + "/" + Math.round(Math.abs(esG) + Td2)/1000.0*(-1));
-            System.out.println("Допуск на внутренний диаметр  резьбы Tr" + D + "x" + P + " " + Diametr.vutrennii(D,P)  + Math.round(Td3_6g)/1000.0 * (-1));
+            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.srediiNar(D,P)  + (esG / 1000.0) + "/" + Math.round(Math.abs(esG) + Td2)/1000.0*(-1));
+            System.out.println("Допуск на внутренний диаметр  резьбы Tr" + D + "x" + P + " " + Diametr.vutrenniiNar(D,P)  + Math.round(Td3_6g)/1000.0 * (-1));
 
         }else if (command == 3) {
             double Td = (Math.round((180 * Math.cbrt(Math.pow(P, 2)) - 45 / Math.sqrt(P)) / 1.6) /1000.0) * (-1); //наружный диаметр
             System.out.println("Допуск на наружный диамер резьбы Tr" + D + "x" + P + " " + D + Td);
-            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.sredii(D,P) + (esE / 1000.0) + "/" + Math.round(Math.abs(esE) + (Td2 * 1.25))/1000.0 * (-1));
-            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrennii(D,P)  + Math.round(Td3_7e)/1000.0 * (-1));
+            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.srediiNar(D,P) + (esE / 1000.0) + "/" + Math.round(Math.abs(esE) + (Td2 * 1.25))/1000.0 * (-1));
+            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrenniiNar(D,P)  + Math.round(Td3_7e)/1000.0 * (-1));
 
         }else if (command == 4) {
             double Td = (Math.round((180 * Math.cbrt(Math.pow(P, 2)) - 45 / Math.sqrt(P)) / 1.6) /1000.0) * (-1); //наружный диаметр
             System.out.println("Допуск на наружный диамер резьбы Tr" + D + "x" + P + " " + D  + Td);
-            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.sredii(D,P)  + (esG / 1000.0) + "/" + Math.round(Math.abs(esG) + (Td2 * 1.25))/1000.0 * (-1));
-            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrennii(D,P)  + Math.round(Td3_7g)/1000.0 * (-1));
+            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.srediiNar(D,P)  + (esG / 1000.0) + "/" + Math.round(Math.abs(esG) + (Td2 * 1.25))/1000.0 * (-1));
+            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrenniiNar(D,P)  + Math.round(Td3_7g)/1000.0 * (-1));
 
         }else if (command == 5) {
             double Td = (Math.round((180 * Math.cbrt(Math.pow(P, 2)) - 45 / Math.sqrt(P)) / 1.6) /1000.0) * (-1); //наружный диаметр
             System.out.println("Допуск на наружный диамер резьбы Tr" + D + "x" + P + " " + D  + Td);
-            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.sredii(D,P)  + (esC / 1000.0) + "/" + Math.round(Math.abs(esC) + (Td2 * 1.6))/1000.0 * (-1));
-            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrennii(D,P)  + Math.round(Td3_8c)/1000.0 * (-1));
+            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.srediiNar(D,P)  + (esC / 1000.0) + "/" + Math.round(Math.abs(esC) + (Td2 * 1.6))/1000.0 * (-1));
+            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrenniiNar(D,P)  + Math.round(Td3_8c)/1000.0 * (-1));
 
         }else if (command == 6){
             double Td = (Math.round((180 * Math.cbrt(Math.pow(P, 2)) - 45 / Math.sqrt(P)) / 1.6) /1000.0) * (-1); //наружный диаметр
             System.out.println("Допуск на наружный диамер резьбы Tr" + D + "x" + P + " " + D  + Td);
-            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.sredii(D,P)  + (esE / 1000.0) + "/" + Math.round(Math.abs(esE) + (Td2 * 1.6))/1000.0 * (-1));
-            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrennii(D,P)  + Math.round(Td3_8e)/1000.0 * (-1));
+            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.srediiNar(D,P)  + (esE / 1000.0) + "/" + Math.round(Math.abs(esE) + (Td2 * 1.6))/1000.0 * (-1));
+            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrenniiNar(D,P)  + Math.round(Td3_8e)/1000.0 * (-1));
 
         }else if (command == 7){
             double Td = (Math.round((180 * Math.cbrt(Math.pow(P, 2)) - 45 / Math.sqrt(P)) / 1.6) /1000.0) * (-1); //наружный диаметр
             System.out.println("Допуск на наружный диамер резьбы Tr" + D + "x" + P + " " + D  + Td);
-            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.sredii(D,P)  + (esC / 1000.0) + "/" + Math.round(Math.abs(esC) + (Td2 * 2))/1000.0 * (-1));
-            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrennii(D,P)  + Math.round(Td3_9c)/1000.0 * (-1));
+            System.out.println("Допуск на средний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.srediiNar(D,P)  + (esC / 1000.0) + "/" + Math.round(Math.abs(esC) + (Td2 * 2))/1000.0 * (-1));
+            System.out.println("Допуск на внутренний диаметр резьбы Tr" + D + "x" + P + " " + Diametr.vutrenniiNar(D,P)  + Math.round(Td3_9c)/1000.0 * (-1));
 
         }else {
             System.out.println("Не верная цифра, попробуй еще раз.");
@@ -83,7 +83,7 @@ public class tryClass {
         System.out.println("2 - Нет.");
         int command2 = scanner.nextInt();
         if (command2 == 1){
-            new calculation(P,Diametr.sredii(D,P));
+            new calculation(P,Diametr.srediiNar(D,P));
 
 
         }

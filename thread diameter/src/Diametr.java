@@ -1,12 +1,12 @@
 import java.util.*;
 public class Diametr {
-    static double sredii(double D, double P){
+    static double srediiNar(double D, double P){  //расчет среднего диаметра наружной резьбы
         return D - (P / 2);
     }
-    static double vutrennii(double D, double P){
-        return D-((P / 2) + raschetVnutrennego(P))*2;
+    static double vutrenniiNar(double D, double P){  // расчет внутреннего диаметра наружной резьбы
+        return D-((P / 2) + raschetVnutrennegoNar(P))*2;
     }
-    static double raschetVnutrennego(double value){
+    static double raschetVnutrennegoNar(double value){ // расчет коэффициента для внутреннего диаметра в зависимости от шага "ac"
         double coeff = 0;
         if (value == 1.5)
             coeff = 0.15;
@@ -18,6 +18,11 @@ public class Diametr {
             coeff = 1;
         return coeff;
     }
+    static double vnutrenniiVn(double D, double P){   // расчет внутреннего диаметра внутренней резьбы
+        return D - P;
+    }
+
+
 
 //
 //    public static void main(String[] args) {
